@@ -1,9 +1,9 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="pl">
 
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <title>PG - zadanie rekrutacyjne</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -17,25 +17,112 @@
   <!-- Place favicon.ico in the root directory -->
 
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/index.scss">
 
   <meta name="theme-color" content="#fafafa">
 </head>
 
 <body>
+<div class="page__wrapper">
+  <header class="header">
+    <picture class="logo">
+      <!--        LOGO <source srcset="">-->
+    </picture>
+  </header>
+  <nav class="nav">
+    <div class="nav__wrapper">
+      <ul class="nav__container nav--primary">
+        <li class="nav__item"><a href="#" class="nav__link"><span>link1</span></a></li>
+        <li class="nav__item"><a href="#" class="nav__link"><span>link1</span></a></li>
+        <li class="nav__item"><a href="#" class="nav__link"><span>link1</span></a></li>
+        <li class="nav__item"><a href="#" class="nav__link"><span>link1</span></a></li>
+      </ul>
+      <ul class="nav__container nav--secondary">
+        <li class="nav__item"><a href="#" class="nav__link"><span>link1</span></a></li>
+        <li class="nav__item"><a href="#" class="nav__link"><span>link1</span></a></li>
+        <li class="nav__item"><a href="#" class="nav__link"><span>link1</span></a></li>
+        <li class="nav__item"><a href="#" class="nav__link"><span>link1</span></a></li>
+      </ul>
+      <figure class="card">
+        <figcaption class="card__title">
+          Mój profil
+        </figcaption>
+        <div class="card__photo">
+          <picture class="card__photo__img">
+            <source srcset="">
+          </picture>
+        </div>
+        <div class="card__info">
+          <p class="card__info__name">info</p>
+          <p class="card__info__text">info</p>
+          <p class="card__info__text">info</p>
+        </div>
+      </figure>
+    </div>
+  </nav>
+  <main class="page__main">
+    <section class="research">
+      <div class="research__wrapper">
+        <header class="research__header">
+          <h1 class="research__title">Tytuł <strong>pracy badawczej </strong><a class="research__link"
+                                                                                href="">szczegóły</a></h1>
+        </header>
+        <div class="research__info__wrapper">
+          <div class="research__info__container">
+            <p class="research__info__label">Nr rekordu</p>
+            <p class="research__info__item">748</p>
+          </div>
+          <div class="research__info__container">
+            <p class="research__info__label">Status</p>
+            <p class="research__info__item">Zatwierdzony</p>
+          </div>
+          <div class="research__info__container">
+            <p class="research__info__label">Zgłaszający</p>
+            <p class="research__info__item">Jan Kowalski</p>
+          </div>
+        </div>
+        <div class="research__info__wrapper">
+          <h2 class="research__title--secondary">Ogólne</h2>
+          <div class="research__info__container">
+            <p class="research__info__label">Forum publikacji</p>
+            <p class="research__info__item">Użycie niekomercyjne - Bez utworów niezależnych (CC-BY-NC-ND) (3.0)</p>
+          </div>
+          <div class="research__info__container">
+            <p class="research__info__label">Rodzaj pracy N-B</p>
+            <p class="research__info__item">Artykuł w czasopiśmie / W wersji drukowanej (również elektronicznej)</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer__wrapper">
+      <a href="#" class="footer__link">Kontakt</a>
+      <picture>
+        <!--        LOGO <source srcset="">-->
+      </picture>
+    </div>
+  </footer>
+</div>
 
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
-  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
 
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
+<script src="js/vendor/modernizr-3.11.2.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+
+<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+<script>
+  window.ga = function () {
+    ga.q.push(arguments)
+  };
+  ga.q = [];
+  ga.l = +new Date;
+  ga('create', 'UA-XXXXX-Y', 'auto');
+  ga('set', 'anonymizeIp', true);
+  ga('set', 'transport', 'beacon');
+  ga('send', 'pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async></script>
 </body>
 
 </html>

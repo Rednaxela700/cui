@@ -1,5 +1,5 @@
 {
-  "name": "PG recruitment",
+  "name": "PG-recruitment",
   "version": "0.0.1",
   "description": "",
   "keywords": "recruitment",
@@ -12,6 +12,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "parcel-bundler": "^1.12.4"
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.29.0"
+  },
+  "dependencies": {
+    "main.css": "^2.1.0"
   }
 }

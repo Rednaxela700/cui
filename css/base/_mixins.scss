@@ -1,6 +1,6 @@
 @mixin rwd($device) {
   @if (map_has_key($breakpoints, $device)) {
-    @media (max-width: map_get($breakpoints, $device)) {
+    @media (min-width: map_get($breakpoints, $device)) {
       @content
     }
   } @else {

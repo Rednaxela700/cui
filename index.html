@@ -4,48 +4,64 @@
 <head>
   <meta charset="utf-8">
   <title>PG - zadanie rekrutacyjne</title>
-  <meta name="description" content="">
+  <meta property="url" content="https://cui.pg.pl/rekrutacja">
+  <meta name="description" content="Praca badawcza - J. Kowalski">
+  <meta name="dcterms.description" lang="pl" content="Praca badawcza - J. Kowalski">
+  <meta name="dcterms.subject" lang="pl" content="Praca; badawcza; PG; Politechnika; Gdansk; Kowalski; Jan; 2020;">
+  <meta name="dcterms.description" lang="en-us" content="Research Work - J. Kowalski">
+  <meta name="dcterms.subject" lang="en-us"
+        content="research; work; PG; University; Technology; Gdansk; Kowalski; 2020;">
+  <meta name="keywords" content="Praca badawcza PG Politechnika Gdansk Kowalski 2020">
+  <meta name="application-name" content="Zadanie rekrutacyjne, Praca badawcza - J. Kowalski, Politechnika Gdańska">
+  <meta name="msapplication-tooltip" content="Zadanie rekrutacyjne, Praca badawcza - J. Kowalski, Politechnika Gdańska">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
-
+  <meta property="og:title" content="Praca badawcza J. Kowalski - Politechnika Gdańska">
+  <meta property="og:url" content="https://cui.pg.pl/praca_badawcza/jkowalski">
+  <meta property="og:image" content="https://cui.pg.pl/praca_badawcza/jkowalski/image.png">
+  <link rel="alternate" type="application/rss+xml" title="Prace badawcze na RSS - Politechnika Gdańska"
+        href="https://cui.pg.pl/praca_badawcza/">
+  <link rel="canonical" href="https://cui.pg.pl/praca_badawcza/jkowalski">
+  <link rel="author" href="https://github.com/Rednaxela700">
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
-
+  <link rel="icon"
+        type="image/ico"
+        href="./favicon.ico">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/index.scss">
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <meta name="theme-color" content="#fafafa">
 </head>
 
 <body>
 <div class="page__wrapper">
   <header class="header">
-    <picture class="logo">
-      <source srcset="https://via.placeholder.com/250x100"
-      media="(min-width: 800px)">
-      <img src="https://via.placeholder.com/150x50" alt="University of Technology in Gdansk logo image" />
-    </picture>
+    <a href="https://pg.edu.pl/">
+      <picture class="logo">
+        <source srcset="https://via.placeholder.com/250x100"
+                media="(min-width: 800px)">
+        <img src="https://via.placeholder.com/150x50" alt="University of Technology in Gdansk logo image"/>
+      </picture>
+    </a>
   </header>
   <nav class="nav">
     <div class="nav__wrapper">
-      <ul class="nav__container nav--primary">
-        <li class="nav__item"><a href="#" class="nav__link"><span>strona główna</span></a></li>
-        <li class="nav__item"><a href="#" class="nav__link"><span>pracownicy</span></a></li>
-        <li class="nav__item"><a href="#" class="nav__link"><span>biznes</span></a></li>
-        <li class="nav__item"><a href="#" class="nav__link"><span>uczelnia</span></a></li>
-        <li class="nav__item"><a href="#" class="nav__link"><span>absolwenci</span></a></li>
-      </ul>
-      <ul class="nav__container nav--secondary">
-        <li class="nav__item"><a href="#" class="nav__link"><span>start</span></a></li>
-        <li class="nav__item"><a href="#" class="nav__link"><span>studia</span></a></li>
-        <li class="nav__item"><a href="#" class="nav__link"><span>iii stopień</span></a></li>
-        <li class="nav__item"><a href="#" class="nav__link"><span>płatności</span></a></li>
-      </ul>
+      <div class="nav__wrapper__inner">
+        <ul class="nav__container nav--primary">
+          <li class="nav__item"><a href="#" class="nav__link"><span>strona główna</span></a></li>
+          <li class="nav__item"><a href="#" class="nav__link"><span>pracownicy</span></a></li>
+          <li class="nav__item"><a href="#" class="nav__link"><span>biznes</span></a></li>
+          <li class="nav__item"><a href="#" class="nav__link"><span>uczelnia</span></a></li>
+          <li class="nav__item"><a href="#" class="nav__link"><span>absolwenci</span></a></li>
+        </ul>
+        <ul class="nav__container nav--secondary">
+          <li class="nav__item"><a href="#" class="nav__link"><span>start</span></a></li>
+          <li class="nav__item"><a href="#" class="nav__link"><span>studia</span></a></li>
+          <li class="nav__item"><a href="#" class="nav__link"><span>iii stopień</span></a></li>
+          <li class="nav__item"><a href="#" class="nav__link"><span>płatności</span></a></li>
+        </ul>
+      </div>
       <figure class="card">
         <figcaption class="card__title">
           Mój profil
@@ -64,11 +80,13 @@
     </div>
   </nav>
   <main class="page__main">
-    <section class="research">
-      <div class="research__wrapper">
+    <article class="research">
+      <section class="research__wrapper">
         <header class="research__header">
-          <h1 class="research__title">Tytuł <strong>pracy badawczej </strong><a class="research__link"
-                                                                                href="">szczegóły</a></h1>
+          <h1 class="research__title"><cite>Tytuł <strong>pracy badawczej</strong></cite>
+            <a class="research__link"
+               href="#" rel="canonical">szczegóły</a>
+          </h1>
         </header>
         <div class="research__info__wrapper">
           <div class="research__info__container">
@@ -84,8 +102,10 @@
             <p class="research__info__item">Jan Kowalski</p>
           </div>
         </div>
-        <div class="research__info__wrapper">
-          <h2 class="research__title--secondary">Ogólne</h2>
+        <section class="research__info__wrapper">
+          <header>
+            <h2 class="research__title--secondary">Ogólne</h2>
+          </header>
           <div class="research__info__container">
             <p class="research__info__label">Forum publikacji</p>
             <p class="research__info__item">Użycie niekomercyjne - Bez utworów niezależnych (CC-BY-NC-ND) (3.0)</p>
@@ -94,9 +114,9 @@
             <p class="research__info__label">Rodzaj pracy N-B</p>
             <p class="research__info__item">Artykuł w czasopiśmie / W wersji drukowanej (również elektronicznej)</p>
           </div>
-        </div>
-      </div>
-    </section>
+        </section>
+      </section>
+    </article>
   </main>
   <footer class="footer">
     <div class="footer__wrapper">

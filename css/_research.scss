@@ -17,6 +17,10 @@
     & > cite {
       font-style: normal;
     }
+
+    &--secondary {
+      padding: 0 4px;
+    }
   }
 
   &__link {
@@ -33,15 +37,43 @@
     &__wrapper {
       padding: 16px 8px 24px;
     }
+
     &__container {
       @include flex();
+
       & p {
         margin: 0;
       }
+
     }
+
     &__label {
       font-weight: bold;
       flex-basis: 18%;
     }
   }
 }
+
+@include rwd(mobile) {
+  .research__info {
+    &__container {
+      justify-content: space-between;
+    }
+    &__container  &__item {
+      margin:0 16px 8px;
+    }
+    &__item {
+      text-align: right;
+    }
+  }
+}
+@include rwd(tablet) {
+  .research__info {
+    &__container {
+      justify-content: normal;
+    }
+  }
+}
+
+
+

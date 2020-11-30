@@ -1,17 +1,37 @@
 .header {
   margin: 0 auto;
-  @include rwd('desktop') {
+  @include flex(space-between);
+  @include rwd(tablet) {
+  }
+    @include rwd('desktop') {
     max-width: map-get($breakpoints, 'desktop');
     min-height: 100px;
   }
+
   & .logo {
-    max-height: 100px;
-    padding: 8px 0;
+    @include rwd(mobile) {
+      display: inline-block;
+      max-height: 50px;
+      padding: 8px;
+    }
+    @include rwd(tablet) {
+      max-height: 80px;
+      padding: 0 8px;
+      margin: 16px 0;
+    }
+    @include rwd(desktop) {
+      padding: 8px 0;
+    }
   }
 }
 
 .nav__item--radius {
-  border-bottom-left-radius: 16px;
+  @include rwd(mobile) {
+    border-bottom-left-radius: 0;
+  }
+  @include rwd(tablet) {
+    border-bottom-left-radius: 16px;
+  }
 }
 
 .nav {
@@ -28,6 +48,12 @@
 
     &__inner {
       align-self: flex-start;
+      @include rwd(mobile) {
+        width: 100%;
+      }
+      @include rwd(tablet) {
+        width: auto;
+      }
     }
   }
 
@@ -36,6 +62,13 @@
     padding: 0;
     margin: 0;
     list-style: none;
+    @include rwd(mobile) {
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    @include rwd(tablet) {
+      flex-wrap: nowrap;
+    }
   }
 
 
@@ -56,19 +89,29 @@
       width: 90%;
       background: #fff;
       transform: translateX(5%);
+
     }
 
     &:hover::after, :focus::after {
-      display: block;
+      @include rwd(desktop) {
+        display: block;
+      }
     }
   }
 
   &--primary {
+    @include rwd(mobile) {
+      background: $color-primary;
+    }
+    @include rwd(tablet) {
+      background: transparent;
+    }
 
     & .nav__item {
       position: relative;
       background: $color-primary;
     }
+
     & .nav__link {
       padding: 24px 16px;
       font-size: 14px;
@@ -82,22 +125,42 @@
   }
 
   &--secondary {
-    justify-content: space-around;
     padding-left: 16px;
     background: $color-secondary;
     font-weight: bold;
     text-transform: capitalize;
-    border-top-right-radius: 16px;
+    @include rwd(mobile) {
+      justify-content: normal;
+    }
+    @include rwd(tablet) {
+      justify-content: space-around;
+      border-top-right-radius: 16px;
+
+    }
     @include rwd(desktop) {
       margin-right: -16px;
     }
 
     & .nav__item {
-      flex-basis: calc(25% - 16px);
+      @include rwd(mobile) {
+        flex-basis: calc(50% - 16px);
+        text-align: center;
+      }
+      @include rwd(tablet) {
+        flex-basis: calc(25% - 16px);
+        text-align: left;
+      }
+
     }
 
     & .nav__link {
-      @include flex(normal, center);
+      @include rwd(tablet) {
+        @include flex(center, center);
+
+      }
+      @include rwd(tablet) {
+        justify-content: normal;
+      }
       @include rwd(desktop) {
         padding: 42px 0;
         &::after {
@@ -107,7 +170,10 @@
       }
 
       & .fa {
-        display: inline-block;
+        @include rwd(mobile) {
+          display: none;
+
+        }
         @include rwd(desktop) {
           margin-right: 8px;
         }
@@ -141,15 +207,49 @@
   }
 }
 
+@include rwd(mobile) {
+  .card {
+    &--mobile {
+      @include flex(normal, center)
+    }
+
+    &__link--mobile {
+      display: inline-block;
+    }
+
+    &__photo--mobile {
+      max-height: 48px;
+      border-radius: 50%;
+    }
+  }
+}
+
+@include rwd(tablet) {
+  .card {
+    &--mobile {
+      display: none;
+    }
+  }
+}
+
 .card {
   @include rwd(mobile) {
     display: none;
   }
-  @include rwd(desktop) {
+  @include rwd(tablet) {
+    position: absolute;
+    top: 8px;
+    right: 0;
     display: block;
   }
+  @include rwd(desktop) {
+    position: relative;
+    margin: 16px auto 0 56px;
+    padding: 8px 16px;
+    margin: 16px auto 0 56px;
+
+  }
   position: relative;
-  margin: 16px auto 0 56px;
   padding: 8px 16px;
 
   & p {
@@ -172,6 +272,8 @@
     font-weight: bold;
     margin: 0;
   }
+
+
   @include rwd(desktop) {
     &__photo {
       margin: 16px 0 16px 24px;

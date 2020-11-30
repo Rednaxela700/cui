@@ -1,14 +1,11 @@
 .footer {
-  min-height: 250px;
   background: $color-footer;
-  @include rwd(desktop) {
-    margin-top: 128px;
-  }
 
   &__wrapper {
     @include flex(space-between, center);
+    flex-wrap: wrap;
     margin: 0 auto;
-    padding: 16px 0;
+    padding: 16px 4px;
     max-width: map-get($breakpoints, desktop);
     @include rwd(desktop) {
       padding: 48px 0;
@@ -19,9 +16,32 @@
     @extend .nav__link;
     padding: 0;
     text-decoration: underline;
+
+    &:hover::after {
+      display: none;
+    }
   }
 
   &__img {
     max-width: 200px;
+  }
+}
+
+@include rwd(mobile) {
+  .footer {
+    min-height: auto;
+  }
+  .footer__img {
+    margin: 16px;
+    margin-top: 64px;
+  }
+}
+@include rwd(desktop) {
+  .footer {
+    min-height: 250px;
+    margin-top: 128px;
+    &__img {
+      margin: 0;
+    }
   }
 }

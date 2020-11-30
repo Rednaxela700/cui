@@ -6,6 +6,10 @@
   }
 }
 
+.nav__item--radius {
+  border-bottom-left-radius: 16px;
+}
+
 .nav {
   background-image: $color-primary;
   background: linear-gradient(90deg, $color-secondary 50%, $color-primary 50%);
@@ -56,21 +60,16 @@
   }
 
   &--primary {
-    border-bottom-left-radius: 16px;
-    background: $color-primary;
 
     & .nav__item {
       position: relative;
-
-      &:first-child {
-        padding-left: 16px;
-      }
+      background: $color-primary;
     }
-
     & .nav__link {
       padding: 24px 16px;
       font-size: 14px;
       text-transform: uppercase;
+
       &:active + .nav__container__inner, &:focus + .nav__container__inner {
         @extend .nav__container;
         display: block;
@@ -113,6 +112,31 @@
 
     }
   }
+
+  &__container__inner {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    transform: translateY(100%);
+    z-index: 2;
+
+    & .nav__link__inner {
+      padding: 16px 0;
+    }
+
+  }
+
+  &__link__inner {
+    @extend .nav__link;
+    width: 100%;
+    background: $color-primary;
+    text-align: center;
+
+    &::after {
+      bottom: 4px;
+    }
+  }
 }
 
 .card {
@@ -149,12 +173,15 @@
       border-radius: 50%;
     }
   }
+
   &__info {
     margin-left: 24px;
     font-size: 14px;
+
     &__name {
       font-weight: bold;
     }
+
     &__text a {
       color: #fff;
       text-decoration: none;

@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="09867316-ba15-48bf-9ce4-c48d5a719aff" name="Default Changelist" comment="finished rwd" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1kssTjqBxHJQB2pJygPkYFFGgO7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/img" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.build">
+    <configuration default="true" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="parcel" />
+        <script value="bulid" />
+        <script value="index.html" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="build" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="parcel start&amp;build" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="parcel" />
+        <script value="index.html" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="npm.dev" />
+      <item itemvalue="npm.build" />
+      <item itemvalue="npm.parcel start&amp;build" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="09867316-ba15-48bf-9ce4-c48d5a719aff" name="Default Changelist" comment="" />
+      <created>1606500643587</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606500643587</updated>
+      <workItem from="1606500646631" duration="3129000" />
+      <workItem from="1606510925339" duration="3534000" />
+      <workItem from="1606651805697" duration="28863000" />
+    </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1606502072071</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606502072071</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added sass and parcel as devDependencies">
+      <created>1606562315610</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1606562315610</updated>
+    </task>
+    <task id="LOCAL-00003" summary="set base research page markup">
+      <created>1606562340952</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1606562340952</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added basic scss filestructure">
+      <created>1606565973318</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1606565973318</updated>
+    </task>
+    <task id="LOCAL-00005" summary="filled markup with text, added logo svg">
+      <created>1606654749386</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1606654749386</updated>
+    </task>
+    <task id="LOCAL-00006" summary="changed rwd mixin settings, added header styles file">
+      <created>1606654797613</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1606654797613</updated>
+    </task>
+    <task id="LOCAL-00007" summary="added meta tags and filled site text content">
+      <created>1606659177430</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1606659177430</updated>
+    </task>
+    <task id="LOCAL-00008" summary="styles for screen readers">
+      <created>1606659212879</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1606659212879</updated>
+    </task>
+    <task id="LOCAL-00009" summary="finished styling navbar">
+      <created>1606692099577</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1606692099577</updated>
+    </task>
+    <task id="LOCAL-00010" summary="fixes for dropdown and simple nav radius handling in js">
+      <created>1606702390493</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1606702390493</updated>
+    </task>
+    <task id="LOCAL-00011" summary="added base rwd to header, fixed index html structure">
+      <created>1606705834623</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1606705834623</updated>
+    </task>
+    <task id="LOCAL-00012" summary="added styles for research section">
+      <created>1606705860066</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1606705860066</updated>
+    </task>
+    <task id="LOCAL-00013" summary="added styles for footer and custom logo svg">
+      <created>1606708797589</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1606708797589</updated>
+    </task>
+    <task id="LOCAL-00014" summary="added site logo files">
+      <created>1606709219794</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1606709219794</updated>
+    </task>
+    <task id="LOCAL-00015" summary="finished rwd">
+      <created>1606713543491</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1606713543491</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <MESSAGE value="added sass and parcel as devDependencies" />
+    <MESSAGE value="set base research page markup" />
+    <MESSAGE value="added basic scss filestructure" />
+    <MESSAGE value="filled markup with text, added logo svg" />
+    <MESSAGE value="changed rwd mixin settings, added header styles file" />
+    <MESSAGE value="added meta tags and filled site text content" />
+    <MESSAGE value="styles for screen readers" />
+    <MESSAGE value="finished styling navbar" />
+    <MESSAGE value="fixes for dropdown and simple nav radius handling in js" />
+    <MESSAGE value="added base rwd to header, fixed index html structure" />
+    <MESSAGE value="added styles for research section" />
+    <MESSAGE value="added styles for footer and custom logo svg" />
+    <MESSAGE value="added site logo files" />
+    <MESSAGE value="finished rwd" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished rwd" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="580" y="308" width="1071" height="772" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606501217962">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="580" y="308" width="1071" height="772" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1606501217962" />
+    <state x="100" y="79" width="1720" height="900" key="DiffContextDialog" timestamp="1606657133146">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="100" y="79" width="1720" height="900" key="DiffContextDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1606657133146" />
+    <state width="1878" height="297" key="GridCell.Tab.0.bottom" timestamp="1606748922820">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="297" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1606748922820" />
+    <state width="1878" height="297" key="GridCell.Tab.0.center" timestamp="1606748922819">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="297" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1606748922819" />
+    <state width="1878" height="297" key="GridCell.Tab.0.left" timestamp="1606748922819">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="297" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1606748922819" />
+    <state width="1878" height="297" key="GridCell.Tab.0.right" timestamp="1606748922820">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="297" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1606748922820" />
+    <state x="469" y="179" key="SettingsEditor" timestamp="1606502129021">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="469" y="179" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1606502129021" />
+    <state x="560" y="280" key="Vcs.Push.Dialog.v2" timestamp="1606713675407">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="560" y="280" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1606713675407" />
+    <state x="100" y="100" width="1720" height="880" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1606695990187">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="100" y="100" width="1720" height="880" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1606695990187" />
+  </component>
+</project>

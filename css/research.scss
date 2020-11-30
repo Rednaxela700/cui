@@ -1,0 +1,47 @@
+.research {
+  @include rwd(desktop) {
+    max-width: 1004px;
+    margin: 48px auto;
+  }
+
+  &__header {
+    border-bottom: 1px solid $color-accent;
+  }
+
+  &__title {
+    padding: 0 8px;
+    font-weight: normal;
+    font-size: 36px;
+    color: $color-primary;
+
+    & > cite {
+      font-style: normal;
+    }
+  }
+
+  &__link {
+    font-size: 24px;
+    color: $color-accent;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  &__info {
+    &__wrapper {
+      padding: 16px 8px 24px;
+    }
+    &__container {
+      @include flex();
+      & p {
+        margin: 0;
+      }
+    }
+    &__label {
+      font-weight: bold;
+      flex-basis: 18%;
+    }
+  }
+}

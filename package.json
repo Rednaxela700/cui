@@ -1,8 +1,8 @@
 {
-  "name": "PG-recruitment",
+  "name": "pg-recruitment",
   "version": "0.0.1",
   "description": "",
-  "keywords": "recruitment",
+  "keywords": ["recruitment"],
   "license": "",
   "author": "",
   "scripts": {

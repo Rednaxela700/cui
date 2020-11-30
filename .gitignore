@@ -6,3 +6,4 @@ dist
 .cache
 *.idea
 doc
+.DS_Store

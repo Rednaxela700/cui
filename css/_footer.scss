@@ -1,0 +1,27 @@
+.footer {
+  min-height: 250px;
+  background: $color-footer;
+  @include rwd(desktop) {
+    margin-top: 128px;
+  }
+
+  &__wrapper {
+    @include flex(space-between, center);
+    margin: 0 auto;
+    padding: 16px 0;
+    max-width: map-get($breakpoints, desktop);
+    @include rwd(desktop) {
+      padding: 48px 0;
+    }
+  }
+
+  &__link {
+    @extend .nav__link;
+    padding: 0;
+    text-decoration: underline;
+  }
+
+  &__img {
+    max-width: 200px;
+  }
+}

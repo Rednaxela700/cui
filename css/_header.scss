@@ -109,7 +109,6 @@
         }
         font-size: 32px;
       }
-
     }
   }
 
@@ -124,7 +123,6 @@
     & .nav__link__inner {
       padding: 16px 0;
     }
-
   }
 
   &__link__inner {
@@ -140,8 +138,14 @@
 }
 
 .card {
+  @include rwd(mobile) {
+    display: none;
+  }
+  @include rwd(desktop) {
+    display: block;
+  }
   position: relative;
-  margin: 16px auto 0 16px;
+  margin: 16px auto 0 56px;
   padding: 8px 16px;
 
   & p {
@@ -154,7 +158,6 @@
     margin: 0;
     border: 2px solid #fff;
     background: linear-gradient(90deg, $color-primary 0%, $color-secondary 80%);
-
   }
 
   &__title {
@@ -165,18 +168,24 @@
     font-weight: bold;
     margin: 0;
   }
+  @include rwd(desktop) {
+    &__photo {
+      margin: 16px 0 16px 24px;
+    }
+  }
 
   &__photo {
+
     &__item {
-      max-width: 90px;
-      max-height: 90px;
+      max-width: 64px;
+      max-height: 64px;
       border-radius: 50%;
     }
   }
 
   &__info {
     margin-left: 24px;
-    font-size: 14px;
+    font-size: 12px;
 
     &__name {
       font-weight: bold;
